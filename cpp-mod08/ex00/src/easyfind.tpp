@@ -1,3 +1,5 @@
+// incluir header 42
+
 #ifndef EASYFIND_TPP
 #define EASYFIND_TPP
 

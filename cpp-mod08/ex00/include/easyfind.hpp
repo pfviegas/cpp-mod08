@@ -9,8 +9,6 @@
 #include <list>
 #include <stdexcept>
 
-typedef std::string str;
-
 class NoValueException : public std::exception
 {
 	public:
