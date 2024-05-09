@@ -6,12 +6,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <stdexcept>
 #include <climits>
 #include <ctime>
-#include <cstdlib>
 #include <algorithm>
-#include <unistd.h>
 
 class Span
 {
@@ -21,7 +18,7 @@ class Span
 		Span(Span const &other);
 		~Span();
 
-		Span &	operator=(Span const &rSym);
+		Span& operator=(Span const &other);
 
 		void	addNumber(int n);
 		void	addBulk(int n);
