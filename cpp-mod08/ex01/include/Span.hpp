@@ -28,6 +28,12 @@ class Span
 		int		shortestSpan();
 		int		longestSpan() const;
 
+		class BulkMaxNumbersException : public std::exception
+		{
+			public:
+				virtual const char *	what() const throw();
+		};
+
 		class MaxNumbersException : public std::exception
 		{
 			public:
